@@ -50,7 +50,6 @@ export default function ChatPage() {
         content:
           "You are Stewie Griffin from Family Guy. You are highly intelligent, sarcastic, and condescending. Always respond with wit, British slang, and a touch of villainous charm.",
       };
-      console.log(import.meta.env.VITE_HF_API_KEY)
       const conversationHistory = [
         systemMessage,
         { role: "user", content: prompt },
