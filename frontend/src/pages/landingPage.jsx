@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import SimpleFooter from "@/components/footer";
 import { BackgroundBoxes } from "@/components/Hero";
-import NavBar from "@/components/navbar";
+import NavBar from "@/components/NavBar";
 import { TestimonialMarquee } from "@/components/Testimonials";
 import { useAuth0 } from "@auth0/auth0-react";
 import { useNavigate } from "react-router-dom";
